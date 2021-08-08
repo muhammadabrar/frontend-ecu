@@ -1,0 +1,37 @@
+{
+  "name": "ecu",
+  "version": "1.0.0",
+  "description": "ecu",
+  "main": "index.js",
+  "dependencies": {
+    "@rehooks/network-status": "^1.0.0",
+    "@zeit/next-less": "^1.0.1",
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "less": "^4.1.1",
+    "mdb-react-ui-kit": "^1.0.0-beta7",
+    "mdbreact": "^5.0.2",
+    "next": "^11.0.0",
+    "react": "^17.0.2",
+    "react-countup": "^4.3.3",
+    "react-dom": "^17.0.2",
+    "react-file-drop": "^3.1.2",
+    "react-loadingg": "^1.7.2",
+    "react-model": "^4.0.2",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-rating-stars-component": "^2.2.0",
+    "react-select": "^4.3.1",
+    "react-toastify": "^7.0.4",
+    "recharts": "^2.0.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "devwin": "./node_modules/.bin/next.cmd dev -p 3005",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "",
+  "license": "ISC"
+}
